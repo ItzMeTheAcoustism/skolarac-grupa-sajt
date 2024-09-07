@@ -1,0 +1,17 @@
+body{
+    background-color:darkblue;
+}
+
+h1{
+    color:yellow ;
+    margin-left:10px;
+    margin-bottom:10px;
+    font-size:60px;
+    font-family: 'Sonic Logo', sans-serif;
+    text-shadow:
+        5px 5px 0 red,
+        -5px 5px 0 red,
+        -5px -5px 0 red,
+        5px -5px 0 red;
+    text-align:center;
+}
