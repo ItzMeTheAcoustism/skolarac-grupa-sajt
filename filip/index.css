@@ -1,0 +1,19 @@
+body{
+    background: rgb(222,154,28);
+background: radial-gradient(circle,
+ rgba(222,154,28,0.8408613445378151)
+  0%, rgba(210,192,26,0.5943627450980392) 100%);
+
+
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; 
+    height: 100vh;           
+}
+h1 {font-family: 'ADLaM Display', sans-serif;
+
+    text-shadow:
+    5px ;
+}
