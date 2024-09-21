@@ -9,11 +9,50 @@ background: radial-gradient(circle,
 
 .image-container {
     display: flex;
-    justify-content: center; 
-    height: 100vh;           
+    justify-content: center;            
 }
 h1 {font-family: 'ADLaM Display', sans-serif;
+    text-align: center;
+}
+a{
+  font-size: 30px;
+  text-decoration: none;
+  color: blue;
+  margin: 20px;
+}
 
-    text-shadow:
-    5px ;
+.linkovi {
+    display: flex;
+    justify-content: space-between;
+}
+.pozadina-proslost{
+    background: url("code-dark-background-python-programming-developer-programmer-working-software-develop-company-office-computer-script-242773376.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.proslost-blok {
+    width: 700px;
+    height: 300px;
+    background-color:lightblue;
+    margin: 0 auto;
+    border: 5px solid blue;
+    border-radius: 15px;
+}
+
+.tekst-lista{
+    font-size: 40px;
+}
+.pozadina-sad{
+    background: url("e78dI.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sad-blok{
+    width: 700px;
+    height: 300px;
+    background-color:lightblue;
+    margin: 0 auto;
+    border: 5px solid blue;
+    border-radius: 15px;
 }
