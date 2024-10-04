@@ -4,9 +4,10 @@ body{
 
 h1{
     color:rgb(255, 230, 0) ;
+    margin-top: auto;
     margin-left:10px;
-    margin-bottom:10px;
-    font-size:60px;
+    margin-bottom:5px;
+    font-size:100px;
     font-family: 'Sonic Logo', sans-serif;
     text-shadow:
         5px 5px 0 red,
@@ -14,30 +15,38 @@ h1{
         -5px -5px 0 red,
         5px -5px 0 red;
     text-align:center;
+    animation: animation 2s ease 0s 1 normal forwards;
 }
-
 p{
     font-family: 'Helvetica', sans-serif	;
     text-align:center;
     color: darkblue;
     margin-top: 40px;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     border: 5px solid rgb(250, 177, 74);
     background-color: rgb(250, 177, 74);
     border-radius: 10px;
     text-decoration: none;
+    animation: animation 2s ease 0s 1 normal forwards;
 }
 
-.hyperlink{
-    font-family: 'Helvetica', sans-serif	;
-    text-align:center;
-    color: darkblue;
-    margin-top: 40px;
-    font-size: 30px;
-    font-weight: bold;
-    border: 5px solid rgb(250, 177, 74);
-    background-color: rgb(250, 177, 74);
-    border-radius: 10px;
-    text-decoration: none;
+img{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    animation: animation 2s ease 0s 1 normal forwards;
+}
+
+
+@keyframes animation {
+	0% {
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
