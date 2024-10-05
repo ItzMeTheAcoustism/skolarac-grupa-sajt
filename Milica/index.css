@@ -22,13 +22,16 @@ p{
     text-align:center;
     color: darkblue;
     margin-top: 40px;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
     border: 5px solid rgb(250, 177, 74);
     background-color: rgb(250, 177, 74);
     border-radius: 10px;
     text-decoration: none;
     animation: animation 2s ease 0s 1 normal forwards;
+    width: 1100px;
+    margin: 40px;
+    margin-left: 180px;
 }
 
 img{
@@ -37,6 +40,7 @@ img{
     margin-right: auto; 
     animation: animation 2s ease 0s 1 normal forwards;
 }
+
 
 
 @keyframes animation {
@@ -50,3 +54,5 @@ img{
 		transform: translateY(0);
 	}
 }
+
+
